@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace serilog_sinks_crestronsystemlog
 {
-    public class Class1
+    public class CrestronSystemSinkExtension
     {
     }
 }
