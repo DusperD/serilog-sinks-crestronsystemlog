@@ -39,9 +39,7 @@ jobs:
     - name: Build the solution
       run: msbuild serilog-sinks-crestronsystemlog/serilog-sinks-crestronsystemlog.sln /p:Configuration=Release
       
-    - name: Pusblish
-      uses: brandedoutcast/publish-nuget@v2.5.5
-      with:
-        PROJECT_FILE_PATH: serilog-sinks-crestronsystemlog/serilog-sinks-crestronsystemlog.csproj
+    - name: Pusblish Nuget Package
+      run: dotnet nuget push **/*.nupkg --api-key ${{secrets.MyApiKey}} --source https://api.nuget.org/v3/index.json
 
      
