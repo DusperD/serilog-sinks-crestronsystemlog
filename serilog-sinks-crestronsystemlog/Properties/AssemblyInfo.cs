@@ -5,10 +5,10 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("serilog-sinks-crestronsystemlog")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Serilog-Sinks-Crestronsystemlog")]
+[assembly: AssemblyDescription("Write to Crestron System Log")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Dario Dusper")]
 [assembly: AssemblyProduct("serilog-sinks-crestronsystemlog")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
