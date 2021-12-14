@@ -34,9 +34,9 @@ jobs:
       uses: NuGet/setup-nuget@v1.0.5
         
     - name: Restore NuGet packages
-      run: nuget restore serilog-sinks-crestronsystemlog.sln
+      run: nuget restore serilog-sinks-crestronsystemlog/serilog-sinks-crestronsystemlog.sln
         
     - name: Build the solution
-      run: msbuild serilog-sinks-crestronsystemlog.sln
+      run: msbuild serilog-sinks-crestronsystemlog/serilog-sinks-crestronsystemlog.sln
 
      
